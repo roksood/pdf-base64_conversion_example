@@ -6,8 +6,8 @@ import pypdf as pdf
 import base64
 from io import BytesIO
 
-input_pdf = "C:\\Users\\rokso\\Documents\\Example.pdf"
-output_pdf = "C:\\Users\\rokso\\Documents\\Base64_2.pdf"
+input_pdf = "C:\\Users\\Example.pdf"
+output_pdf = "C:\\Users\\Base64_2.pdf"
 
 with open(input_pdf, 'rb') as file:
 
